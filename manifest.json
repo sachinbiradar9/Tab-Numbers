@@ -1,0 +1,15 @@
+{
+  "name": "Tab Numbers",
+  "description": "This extension writes the tab number to the tabs, the ones accessible with ctrl/cmd + number",
+  "version" : "1.0.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "*://*/*"
+  ],
+  "icons": {
+    "512": "tab_numbers.png"
+  },
+  "manifest_version" : 2,
+  "background": {
+    "scripts": ["tab_numbers.js"]
+  }
+}
